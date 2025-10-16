@@ -1,7 +1,7 @@
 body{
     background-color:#7aa4a4;
     color: rgb(7, 7, 7);
-    font-family: 'courier new';
+    font-family: 'calibri';
     font-size: 1em;
 }
 
@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     width: 30%;
     margin: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "calibri";
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
     text-align: center;
     width: 20%;
     margin: 10px auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "calibri";
 }
 
 h3 {
@@ -88,7 +88,11 @@ a:active{
 /* ID RULES */
 
 #pic1 {
-    width:450px;
+    width:250px;
+}
+
+#pic2 {
+    float: right;
 }
 
 /* CLASS RULE */
