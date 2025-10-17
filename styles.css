@@ -6,7 +6,7 @@ body{
 }
 
 #container{
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
     background-color:gray;
     padding: 30px 60px;
@@ -44,7 +44,7 @@ h3 {
     padding-left: 15px;
     padding-left: 20px;
     border-radius: 20px;
-    width: 15%;
+    width: 10%;
     background-color:rgb(221, 217, 217);
 }
 
@@ -102,4 +102,65 @@ a:active{
     color: black;
     padding: 2px;
     font-weight: italic;
+}
+
+#sidebar{
+    background-color: rgb(208, 205, 205);
+    width: 200px;
+    line-height: 2.25em;
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    margin: 25px;
+    margin-top: 76px;
+}
+
+#sidebar h3{
+    padding:5px;
+    border: 1px dotted white;
+    text-align: center;
+    margin-top: 15px;
+    margin: 0 auto;
+    background: none;
+}
+
+li{
+    font-style: italic;
+}
+
+@media (max-width:1200px){
+    #container{
+        background-color: rgb(218, 39, 39);
+        width: 800px;
+    }
+}
+
+@media (max-width:992px){
+    #container{
+        background-color: rgb(235, 26, 26);
+        width: 100%;
+    }
+    body, p, #container, #p2, h3{
+        margin: 0;
+        border: none;
+        padding:0;
+        background-color: yellow;
+    }
+    p, #p2, h3{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    #sidebar{
+        display: none;
+    }
+    h1{
+        border:none;
+        background: none;
+        color: green;
+        width: 90%;
+    }
+    img{
+        width:200px;
+    }
 }
