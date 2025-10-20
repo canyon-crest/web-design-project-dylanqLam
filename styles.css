@@ -3,6 +3,7 @@ body{
     color: rgb(7, 7, 7);
     font-family: 'calibri';
     font-size: 1em;
+    margin: 0;
 }
 
 #container{
@@ -42,10 +43,11 @@ h3 {
     padding: 5px;
     border-left: 20px groove #676767;
     padding-left: 15px;
-    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 20px;
     width: 10%;
     background-color:rgb(221, 217, 217);
+    text-align: center;
 }
 
 p{
@@ -111,16 +113,19 @@ a:active{
     border: 2px solid rgb(0, 0, 0);
     float: right;
     margin: 25px;
-    margin-top: 76px;
+    margin-top: 90px;
+    border-radius: 15px;
 }
 
 #sidebar h3{
-    padding:5px;
-    border: 1px dotted white;
     text-align: center;
-    margin-top: 15px;
+    padding: 0 10px;
     margin: 0 auto;
-    background: none;
+    width: fit-content;
+    border: 2px solid rgb(170, 167, 167);
+    margin-top: 15px;
+    background-color:rgb(221, 217, 217);
+    border-radius: 0;
 }
 
 li{
@@ -164,3 +169,4 @@ li{
         width:200px;
     }
 }
+
