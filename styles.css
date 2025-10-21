@@ -197,3 +197,37 @@ li{
 
 }
 
+/* extra */
+
+
+
+#animatedBox {
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+}
+
+
+#animatedBox2 {
+    position: relative;
+  animation-name: myAnimation;
+  animation-duration: 3s;
+}
+
+#animatedBox3 {
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 3.75s;
+}
+
+#animatedBox4 {
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4.5s;
+}
+
+@keyframes myAnimation {
+  0%   {left:-2500px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
