@@ -200,7 +200,6 @@ li{
 /* extra */
 
 
-
 #animatedBox {
   position: relative;
   animation-name: myAnimation;
@@ -231,3 +230,45 @@ li{
   100% {left:0px; top:0px;}
 }
 
+img:hover {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(143, 194, 177);
+  border: 5px solid #7aa4a4;
+  border-radius: 15px;
+  width: 40%;
+}
+
+ol li {
+  float: left;
+}
+
+ol li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ol li a:hover {
+  background-color: #111111;
+}
